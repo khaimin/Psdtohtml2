@@ -1,0 +1,102 @@
+*{margin:0;padding:0;}
+body{
+	width: 100%;
+	font-family: tahoma;
+}
+header{
+	background-color: #333333;
+	width: 100%;
+	margin: auto;
+	height: 108px;
+}
+header img{
+	padding-top: 30px;
+	padding-left: 20px;
+}
+nav ul{
+	width: 100%;
+	height: 50px;
+	background-color: #666666;
+}
+nav ul li:first-child{
+	padding-left: 20px;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: 1px solid #333333;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+}
+.container{
+	width: 960px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 660px 300px;
+	grid-gap: 20px;
+}
+article{
+	width: 660px;
+}
+section{
+	width: 600px;
+	height: 160px;
+	margin: 40px 30px;
+}
+section img{
+	width: 160px;
+	height: 160px;
+	float: left;
+	background-color: gray;
+}
+.text{
+	width: 420px;
+	padding-left: 180px;
+
+}
+.text p{
+	margin-top: 10px;
+}
+.text a{
+	text-decoration: none;
+	color: orange;
+}
+aside{
+	width: 300px;
+	background-color: #E5E5E5;
+}
+.sidebar-link h2{
+	margin: 20px 0px 20px 20px;
+}
+.sidebar-link ul li{
+	list-style: none;
+	padding-left: 20px;
+	padding-bottom: 15px;
+}
+.sidebar-link ul li a{
+	text-decoration: none;
+	color: orange;
+}
+.other-widget h2{
+	margin: 20px 0px 20px 20px;
+}
+.other-widget p{
+	padding: 0px 20px;
+	letter-spacing: 0.8px;
+	line-height: 1.5;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	color: brown;
+	margin: auto;
+	background-color: gray;
+	line-height: 50px;
+	margin-top: 30px;
+}
